@@ -26,4 +26,4 @@ jobs:
 
     - name: Output Website URL
       run: echo "Website URL: http://achintyabucket.s3-website.us-east-1.amazonaws.com"
-      id: output-url
+      
