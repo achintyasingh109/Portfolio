@@ -25,4 +25,5 @@ jobs:
           aws s3 sync ./ s3://achintyabucket --delete
 
       - name: Output Website URL
-        run: echo "Website URL: http://achintyabucket.s3-website.us-east-1.amazonaws.com"
+        run: |
+          echo "Website URL: http://achintyabucket.s3-website.us-east-1.amazonaws.com"
